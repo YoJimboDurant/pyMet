@@ -8,7 +8,7 @@ import os
 import sys
 
 def importTD3505(startYear, stopYear, USAF, WBAN, pathDir):
-    years = range(startYear, stopYear)
+    years = range(startYear, stopYear+1)
     
 #years = ["2007","2008","2009","2010"]
 #USAF = "747808"
